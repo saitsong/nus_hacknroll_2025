@@ -17,7 +17,7 @@ def text_to_image(prompt: str):
 
 
     API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-large"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer hf_xxxxxxx"}
 
     def query(payload):
 	    response = requests.post(API_URL, headers=headers, json=payload)
